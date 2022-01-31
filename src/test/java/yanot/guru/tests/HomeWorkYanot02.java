@@ -27,7 +27,7 @@ public class HomeWorkYanot02 extends TestBase {
         $("#subjectsInput").setValue("h");
         $(byText("Hindi")).click();
         $(byText("Music")).click();
-        $("#uploadPicture").uploadFromClasspath("scale_1200.jpg");
+        $("#uploadPicture").uploadFromClasspath("error.jpg");
         $("#currentAddress").setValue("address");
         $("#react-select-3-input").setValue("NCR").pressEnter();
         $("#react-select-4-input").setValue("Delhi").pressEnter();
@@ -42,7 +42,7 @@ public class HomeWorkYanot02 extends TestBase {
                         text("16 April,1986"),
                         text("Biology, Hindi"),
                         text("Music"),
-                        text("scale_1200.jpg"),
+                        text("error.jpg"),
                         text("address"),
                         text("NCR Delhi"));
         $("#closeLargeModal").click();

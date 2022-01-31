@@ -8,8 +8,4 @@ public class TestBase {
 
     RegistrationsPage registrationsPage = new RegistrationsPage();
 
-    @BeforeAll
-    static void beforeAll() {
-        Configuration.startMaximized = true;
-    }
 }
