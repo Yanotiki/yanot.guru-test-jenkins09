@@ -8,7 +8,7 @@ import static com.codeborne.selenide.Selenide.*;
 
 public class HomeWorkYanot02 extends TestBase {
 
-    // @Test
+    @Test
     void fillFormTest() {
         // Заполнение формы
         open("https://demoqa.com/automation-practice-form");
@@ -45,6 +45,5 @@ public class HomeWorkYanot02 extends TestBase {
                         text("error.jpg"),
                         text("address"),
                         text("NCR Delhi"));
-        $("#closeLargeModal").click();
     }
 }
