@@ -72,7 +72,7 @@ public class RegistrationsPage {
     }
     //загрузка файла
     public RegistrationsPage tapeUploadPicture() {
-        uploadPicture.uploadFromClasspath("scale_1200.jpg");
+        uploadPicture.uploadFromClasspath("error.jpg");
         return this;
     }
     //заполнение адреса

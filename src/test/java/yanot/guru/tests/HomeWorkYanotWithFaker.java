@@ -45,7 +45,7 @@ public class HomeWorkYanotWithFaker extends TestBase {
                 .checkResultsValue("Date of Birth", "16 April,1986")
                 .checkResultsValue("Subjects", "Hindi")
                 .checkResultsValue("Hobbies", "Music")
-                .checkResultsValue("Picture", "scale_1200.jpg")
+                .checkResultsValue("Picture", "error.jpg")
                 .checkResultsValue("Address", streetAddress)
                 .checkResultsValue("State and City", "NCR Delhi");
     }
